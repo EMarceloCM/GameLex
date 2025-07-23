@@ -348,7 +348,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Diante do cas__lo, Psyco da Manh\xE3 desafia o Lorr\xE3o: \u201CResolva
-    a palavra ou morra nas m\xE3os do monstro Eli\xE3o. S\xF3 um sair\xE1 vivo deste
+    a palavra ou morra nas m\xE3os do monstro Eli\xE3o. S\xF3 um sair\xE1 vivo desse
     vilarejo!\u201D"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6bbda5025fad1c41b60918d3f212c5a, type: 2}
@@ -606,6 +606,7 @@ GameObject:
   - component: {fileID: 1814841083}
   - component: {fileID: 1814841082}
   - component: {fileID: 1814841081}
+  - component: {fileID: 1814841084}
   m_Layer: 5
   m_Name: InputField (Legacy)
   m_TagString: Untagged
@@ -740,6 +741,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814841079}
   m_CullTransparentMesh: 1
+--- !u!114 &1814841084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814841079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51f912b81f235f34bb5269005bded375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputField: {fileID: 1814841081}
+  successClip: {fileID: 8300000, guid: 970a92ec730a9fc4f8f65480965f653c, type: 3}
+  errorClip: {fileID: 8300000, guid: fb8c99dd5e2ff624e91a9ae13b6aa486, type: 3}
+  audioSource: {fileID: 2017897840}
 --- !u!1 &1860144918
 GameObject:
   m_ObjectHideFlags: 0
