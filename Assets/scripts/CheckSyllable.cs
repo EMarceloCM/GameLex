@@ -39,6 +39,8 @@ public class CheckSyllable : MonoBehaviour
         }
 
         yield return new WaitForSeconds(1.1f);
-        SceneManager.LoadScene(isCorrect ? 1 : 0);
+
+        if (isCorrect)
+            SceneManager.LoadScene(1);
     }
 }
